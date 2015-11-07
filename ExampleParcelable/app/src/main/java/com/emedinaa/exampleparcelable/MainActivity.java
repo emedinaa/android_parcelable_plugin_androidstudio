@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent= new Intent(this,DashboardActivity.class);
         intent.putExtra("ENTITY", personEntity);
-        setIntent(intent);
+        startActivity(intent);
     }
 
     @Override
